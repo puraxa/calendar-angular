@@ -14,4 +14,12 @@
     <input type="number" min="1" max="9999" id="year" class="bg-white pad-five">
     <button (click)="setDate()" class="button-trasparent border-soft pad-five">Show</button>
   </div>
-  </div>
+
+  <!-- almir example ngFor directive -->
+  <div *ngFor="let day of days">{{ day }} </div>
+
+  <!-- almir example ngIf directive -->
+  <div *ngIf="true == true">sad ga vidis </div>
+  <div *ngIf="true == false">sad ga ne vidis jer je expression false </div>
+
+</div>
