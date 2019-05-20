@@ -1,0 +1,17 @@
+<div class="container container-border">
+  <div class="title-nav">
+    <div id="displaying-month-year">April,2019</div>
+  
+    <button class="button-round bg-white" (click)="previous()">&lt;</button>
+    <button class="button-round bg-white" (click)="next()">></button>
+    <hr>
+  </div>
+  <div class="flex-container" id="calendar">
+  
+  </div>
+  <div class="input">
+    <select name="month" id="month" class="bg-white pad-five border-soft"></select>
+    <input type="number" min="1" max="9999" id="year" class="bg-white pad-five">
+    <button (click)="setDate()" class="button-trasparent border-soft pad-five">Show</button>
+  </div>
+  </div>

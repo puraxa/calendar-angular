@@ -1,0 +1,85 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container {
+    width: 100%;
+    margin: auto;
+}
+.flex-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.days {
+    width: 14.24%;
+    overflow: hidden;
+    text-align: center;
+    padding: 15px 0;
+}
+#displaying-month-year {
+    position: relative;
+    left: 10%;
+    display: inline-block;
+    padding: 5px 0;
+    width: 130px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.today {
+    background-color: #5F9EFF;
+    border-radius: 50%;
+}
+.button-round {
+    height: 30px;
+    width: 30px;
+    border: solid 1px;
+    border-radius: 50%;
+    position: relative;
+    left: 30%;
+}
+.bg-white {
+    background-color: white;
+}
+.bg-gray {
+    background-color: gray;
+}
+.button-round:hover {
+    background-color: #d1d1d1;
+}
+.title-nav{
+    width: 100%;
+    padding: 5px 0;
+}
+.container-border {
+    border: solid 1px;
+    border-radius: 5px;
+}
+.gray {
+    color: gray;
+}
+.input {
+    position: absolute;
+    top: 440px;
+}
+input {
+    width: 20%;
+    border-radius: 5px;
+}
+.border-soft {
+    border-radius: 5px;
+}
+.button-trasparent {
+    background-color: transparent;
+    border-color: #d1d1d1;
+}
+.pad-five {
+    padding: 5px;
+}
+@media screen and (min-width: 400px){
+    .container {
+        width: 400px;
+    }
+    .button-round {
+        left: 190px;
+    }
+}
