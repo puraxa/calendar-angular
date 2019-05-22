@@ -11,7 +11,7 @@
     <div *ngFor="let date of calendar" [ngClass]="{'days':true, 'today': isToday(date)}">{{ date }}</div>
   </div>
   <div class="input">
-    <select [(ngModel)]="Month" (change)="displayCalendar()">
+    <select [(ngModel)]="Month" (change)="displayCalendar()" class="bg-white pad-five border-soft">
       <option *ngFor="let month of months;let i = index" [value]="i">{{ month }}</option>
     </select>
     <input type="number" min="1" max="9999" [(ngModel)]="Year" class="bg-white pad-five" (change)="displayCalendar()">
