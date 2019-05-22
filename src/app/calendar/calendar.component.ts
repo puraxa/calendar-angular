@@ -28,7 +28,9 @@ export class CalendarComponent implements OnInit {
     console.log(this.calendar);
     this.displayCalendar();
 }
-
+isToday(date):boolean{
+    return date == this.today.getDate() && this.Month == this.today.getMonth() && this.Year == this.today.getFullYear();
+}
  displayCalendar():void {
     this.calendar.length = 0;
     let daysInMonth:number = this.getDaysInMonth();

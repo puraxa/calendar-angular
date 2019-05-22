@@ -8,7 +8,7 @@
   </div>
   <div class="flex-container" id="calendar">
     <div *ngFor="let day of days" [ngClass]="'days'">{{ day }}</div>
-    <div *ngFor="let date of calendar" [ngClass]="'days'">{{ date }}</div>
+    <div *ngFor="let date of calendar" [ngClass]="{'days':true, 'today': isToday(date)}">{{ date }}</div>
   </div>
   <div class="input">
     <select [(ngModel)]="Month" (change)="displayCalendar()">
