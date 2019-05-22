@@ -16,7 +16,7 @@ body {
     text-align: center;
     padding: 15px 0;
 }
-#displaying-month-year {
+.displaying-month-year {
     position: relative;
     left: 10%;
     display: inline-block;
