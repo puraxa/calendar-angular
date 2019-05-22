@@ -1,6 +1,3 @@
-body {
-    font-family: 'Josefin Sans', sans-serif;
-}
 .container {
     width: 100%;
     margin: auto;
@@ -68,14 +65,10 @@ input {
 .border-soft {
     border-radius: 5px;
 }
-.button-trasparent {
-    background-color: transparent;
-    border-color: #d1d1d1;
-}
 .pad-five {
     padding: 5px;
 }
-@media screen and (min-width: 400px){
+@media screen and (min-width: 415px){
     .container {
         width: 400px;
     }
